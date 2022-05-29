@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <Header text="true" />
+    <Header text="My Feedback UI" />
     <div className="container">
       <h1>My App</h1>
     </div>

@@ -1,21 +1,22 @@
 import PropTypes from 'prop-types'
 
+
 function Header({text}) {
   return (
     <header>
-        <div id="container">
-            <h2>{text}</h2>
-        </div>
+      <div className="container">
+      <h2>{text}</h2>
+      </div>
     </header>
   )
-}
+}git 
 
 Header.defaultProps = {
-    text: "FeedbackUI"
+  text: "Feedback UI"
 }
 
 Header.propTypes = {
-    text: PropTypes.string
+  text: PropTypes.string
 }
 
 export default Header
